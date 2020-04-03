@@ -5,7 +5,7 @@ class Post
   end
 
   def self.all
-    self.class.all
+    self.all
   end
 
 end
