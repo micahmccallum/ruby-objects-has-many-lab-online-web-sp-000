@@ -4,3 +4,5 @@ class Author
   def initialize(name)
     self.name = name
   end
+
+end
