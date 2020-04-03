@@ -13,11 +13,7 @@ class Post
   end
 
   def author_name
-    if !self.author
-      nil
-    else
-      self.author.name
-    end
+    self.author ? self.author.name : nil
   end
 
 end
