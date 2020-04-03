@@ -3,7 +3,7 @@ class Song
 
   @@all = []
 
-  def initialize(name, genre)
+  def initialize(name, genre = "")
     self.name = name
     self.genre = genre
     self.all << self
