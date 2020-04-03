@@ -5,7 +5,7 @@ class Song
 
   def initialize(name)
     self.name = name
-    self.songs << self
+    self.all << self
   end
 
   def self.all
