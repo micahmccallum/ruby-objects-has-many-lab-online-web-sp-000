@@ -3,7 +3,7 @@ class Song
   songs = []
   def initialize(name)
     self.name = name
-    self.songs << self    
+    self.songs << self
   end
 
   def all
