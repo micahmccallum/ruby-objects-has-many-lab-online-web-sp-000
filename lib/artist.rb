@@ -6,8 +6,8 @@ class Artist
     self.songs = []
   end
 
-  def songs
-    self.songs
-  end
+  # def songs
+  #   self.songs
+  # end
 
 end
